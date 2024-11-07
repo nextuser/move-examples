@@ -88,6 +88,7 @@ module book::vec_map{
 
     #[test]
     #[expected_failure]
+    #[allow(lint(collection_equality))]
     fun test_set_eq(){
         let mut set1:VecSet<u8> = vec_set::empty<u8>();
         let mut set2 = vec_set::empty<u8>();
@@ -98,7 +99,8 @@ module book::vec_map{
         assert!(set1 == set2);
     }
 
-/*    #[test]
+    #[test]
+    #[allow(lint(collection_equality))]
     fun test_set_eq_sequence(){
         let mut set1 = vec_set::empty<u8>();
         let mut set2 = vec_set::empty<u8>();
@@ -109,7 +111,7 @@ module book::vec_map{
         set2.insert(2);
         assert!(set1 == set2);
     }
-*/
+
 
     #[test]
     fun test_vec_eq(){

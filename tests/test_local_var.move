@@ -16,10 +16,10 @@ module book::test_local_var{
     }
 
     #[test]
-    #[expected_failure]
+    //#[expected_failure]
     fun test_reduce_type(){
-        let c :signer = loop(); //虽然编译通过,但是死循环导致超时
-        book::debug::log(&b"c is", &c);
+        //let c :signer = loop(); //虽然编译通过,但是死循环导致超时
+        //book::debug::log(&b"c is", &c);
         let a:u8 = return ();//虽然编译通过,但是返回退出
         book::debug::log(&b"a is", &a);
         let b: bool = abort 0;//虽然编译通过,但是会异常退出

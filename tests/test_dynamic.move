@@ -1,6 +1,5 @@
 module book::dynamic;
 use sui::dynamic_field;
-use std::string::String;
 
 public struct Character has key{
     id:UID,
