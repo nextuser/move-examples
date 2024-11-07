@@ -1,7 +1,7 @@
 #[test_only]
 module book::test_vector{
     use std::string::String;
-    use sui::vec_set::{Self,VecSet};
+    use sui::vec_set::{Self};
     public struct Book has key,store{
         id : UID,
         name:String,
@@ -60,5 +60,68 @@ module book::test_vector{
         assert!(s.size() == 2);
     }
 
+
+}
+
+#[test_only]
+module book::vec_map{
+
+    use std::string::String;
+    use sui::vec_map::{Self,VecMap};
+    use sui::vec_set::{Self,VecSet};
+
+    public struct Metadata has drop{
+        name:String,
+        attributes:VecMap<u8 ,String>
+    }
+
+    #[test]
+    fun vec_map_playground(){
+        let mut data = Metadata{
+            name : b"my meta data".to_string(),
+            attributes:vec_map::empty(),
+        };
+        data.attributes.insert(2,b"two".to_string());
+        data.attributes.insert(3,b"three".to_string());
+        assert!(data.attributes.contains(&2));
+        data.attributes.remove(&2);
+        assert!(!data.attributes.contains(&2));
+    }
+
+    #[test]
+    #[expected_failure]
+    fun test_set_eq(){
+        let mut set1:VecSet<u8> = vec_set::empty<u8>();
+        let mut set2 = vec_set::empty<u8>();
+        set1.insert(1);
+        set1.insert(2);
+        set2.insert(2);
+        set2.insert(1);
+        assert!(set1 == set2);
+    }
+
+/*    #[test]
+    fun test_set_eq_sequence(){
+        let mut set1 = vec_set::empty<u8>();
+        let mut set2 = vec_set::empty<u8>();
+        set1.insert(1);
+        set1.insert(2);
+        
+        set2.insert(1);
+        set2.insert(2);
+        assert!(set1 == set2);
+    }
+*/
+
+    #[test]
+    fun test_vec_eq(){
+        let mut v1 = std::vector::empty<u8>();
+        let mut v2 = std::vector::empty<u8>();
+        v1.push_back(3);
+        v1.push_back(4);
+        v2.push_back(3);
+        v2.push_back(4);
+        assert!(v1 == v2);
+    }
 
 }
