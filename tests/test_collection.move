@@ -29,8 +29,6 @@ module book::test_vector{
          store
     }
 
-
-
     #[test]
     fun test_book_store(){
         let mut ctx = tx_context::dummy();
