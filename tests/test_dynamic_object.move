@@ -44,13 +44,19 @@ fun equip_accessory(){
     };
     let id = &mut character.id;
     let hat = Accessory{id: object::new(ctx)};
+    assert!(!dof::exists_(id,hat_key));
     dof::add(id,hat_key,hat);
+    assert!(dof::exists_(id,hat_key));
+
     let mdata = Metadata{
         name:b"John".to_string(),
     };
     std::debug::print(&mdata);
     assert!(mdata.name == b"John".to_string());
+
+    assert!(!df::exists_(id,meta_key));
     df::add(id,meta_key,mdata);
+    assert!(df::exists_(id,meta_key));
     
     
     let meta:&mut Metadata =  df::borrow_mut<vector<u8>,Metadata>(id,meta_key);
@@ -59,3 +65,5 @@ fun equip_accessory(){
     sui::test_utils::destroy(character);
 
 }
+
+
