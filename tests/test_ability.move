@@ -34,7 +34,7 @@ module book::ability{
     }   
 
     
-    public struct Keyable has key,store{
+    public struct Keyable has key{
         id : UID,
     }
 
@@ -43,7 +43,7 @@ module book::ability{
         let mut ctx = tx_context ::dummy();
         let k = Keyable{ id: object::new(&mut ctx)};
         std::debug::print(&k);
-        transfer::public_transfer(k,ctx.sender());
+        transfer::transfer(k,ctx.sender());
     }
 
 
@@ -51,7 +51,7 @@ module book::ability{
         
     }
     
-    public struct Object1 has key,store{
+    public struct Object1 has key{
         id: UID,
         value : Storeable,
     }
