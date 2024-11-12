@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51ac0229-87ee-4b66-bcb0-0066ff3a6ce0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Move.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Move.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Move.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Move.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_ability.move" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ability.move" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_epoch.move" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_epoch.move" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_local_var.move" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_local_var.move" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_reference.move" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reference.move" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/.move/https___gitee_com_MystenLabs_sui_git_framework__testnet/crates/sui-framework/packages/sui-framework/sources/types.move" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="v3g1xbl8" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2ojFWIVGlp0AUjQyOfKrEdBK2F1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;Sui.Test pub_module::test_package.executor&quot;: &quot;Run&quot;,
+    &quot;Sui.Test test_local_var::annotated_local_var.executor&quot;: &quot;Run&quot;,
+    &quot;Sui.Test test_local_var::test_reduce_type (1).executor&quot;: &quot;Run&quot;,
+    &quot;Sui.Test test_local_var::test_reduce_type (3).executor&quot;: &quot;Run&quot;,
+    &quot;Sui.Test test_local_var::test_reduce_type (4).executor&quot;: &quot;Run&quot;,
+    &quot;Sui.Test test_local_var::test_reduce_type.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.language.and.region&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Sui.Test test_local_var::annotated_local_var">
+    <configuration name="Test test_local_var::annotated_local_var" type="SuiCommandConfiguration" factoryName="SuiCommand" temporary="true">
+      <option name="command" value="move test test_local_var::annotated_local_var --skip-fetch-latest-git-deps" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test test_local_var::test_reduce_type (1)" type="SuiCommandConfiguration" factoryName="SuiCommand" temporary="true">
+      <option name="command" value="move test test_local_var::test_reduce_type --skip-fetch-latest-git-deps" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test test_local_var::test_reduce_type (2)" type="SuiCommandConfiguration" factoryName="SuiCommand">
+      <option name="command" value="move test test_local_var::test_reduce_type --skip-fetch-latest-git-deps" />
+      <option name="workingDirectory" value="file://$USER_HOME$/.cargo/bin" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test test_local_var::test_reduce_type (3)" type="SuiCommandConfiguration" factoryName="SuiCommand" temporary="true">
+      <option name="command" value="move test test_local_var::test_reduce_type --skip-fetch-latest-git-deps" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test test_local_var::test_reduce_type (4)" type="SuiCommandConfiguration" factoryName="SuiCommand" temporary="true">
+      <option name="command" value="move test test_local_var::test_reduce_type --skip-fetch-latest-git-deps" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test test_local_var::test_reduce_type" type="SuiCommandConfiguration" factoryName="SuiCommand" temporary="true">
+      <option name="command" value="move test test_local_var::test_reduce_type --skip-fetch-latest-git-deps" />
+      <option name="workingDirectory" value="file://$USER_HOME$/.cargo/bin/sui" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Sui.Test test_local_var::annotated_local_var" />
+        <item itemvalue="Sui.Test test_local_var::test_reduce_type (4)" />
+        <item itemvalue="Sui.Test test_local_var::test_reduce_type (3)" />
+        <item itemvalue="Sui.Test test_local_var::test_reduce_type (1)" />
+        <item itemvalue="Sui.Test test_local_var::test_reduce_type" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SuiMoveProjectSettingsService_1">
+    <option name="localSuiPath" value="$USER_HOME$/.cargo/bin/sui" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51ac0229-87ee-4b66-bcb0-0066ff3a6ce0" name="Changes" comment="" />
+      <created>1731375108238</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731375108238</updated>
+      <workItem from="1731375109899" duration="141000" />
+      <workItem from="1731375259673" duration="98000" />
+      <workItem from="1731375365137" duration="358000" />
+      <workItem from="1731375728128" duration="1906000" />
+      <workItem from="1731377911930" duration="102000" />
+      <workItem from="1731378028647" duration="377000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

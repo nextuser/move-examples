@@ -1,4 +1,5 @@
 #[test_only]
+#[allow(unused_function)]
 module book::test_local_var{
     #[test]
     fun annotated_local_var(){
@@ -26,7 +27,14 @@ module book::test_local_var{
         book::debug::log(&b"b is", &b);
     }
 
-        public struct X(u64)
+    fun test_int(){
+        let i =333;
+        let b :u16 = i;
+        let c :u32 = i as u32;
+        std::debug::print(&b);
+        std::debug::print(&c);
+    }
+    public struct X(u64)
     public struct Y{x1:X,x2:X}
     
     fun new_x():X{

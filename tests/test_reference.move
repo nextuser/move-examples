@@ -82,7 +82,7 @@ module book::test_reference{
     fun test_mut_immut_ref(){
         let mut c  = new(3);
         let c1 :&mut Card = &mut c;
-        ///let c2 :& Card = & c;  //不能同时存在可变 不变引用
+        //let c2 :& Card = & c;  //不能同时存在可变 不变引用
         changeCard(c1,5);
         assert!(c1.value == 5);
         print(c1);
