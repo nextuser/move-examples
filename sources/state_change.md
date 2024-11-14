@@ -1,0 +1,5 @@
+
+```bash
+sui client publish
+```
+

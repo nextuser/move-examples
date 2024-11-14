@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51ac0229-87ee-4b66-bcb0-0066ff3a6ce0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Move.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Move.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Move.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Move.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_ability.move" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_ability.move" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_epoch.move" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_epoch.move" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_local_var.move" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_local_var.move" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_reference.move" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_reference.move" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +51,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Sui.Test test_local_var::annotated_local_var">
+  <component name="RunManager" selected="Sui.Test pub_module::test_package">
+    <configuration name="Test pub_module::test_package" type="SuiCommandConfiguration" factoryName="SuiCommand" temporary="true">
+      <option name="command" value="move test pub_module::test_package --skip-fetch-latest-git-deps" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="Test test_local_var::annotated_local_var" type="SuiCommandConfiguration" factoryName="SuiCommand" temporary="true">
       <option name="command" value="move test test_local_var::annotated_local_var --skip-fetch-latest-git-deps" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -87,19 +88,13 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Test test_local_var::test_reduce_type" type="SuiCommandConfiguration" factoryName="SuiCommand" temporary="true">
-      <option name="command" value="move test test_local_var::test_reduce_type --skip-fetch-latest-git-deps" />
-      <option name="workingDirectory" value="file://$USER_HOME$/.cargo/bin/sui" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Sui.Test pub_module::test_package" />
         <item itemvalue="Sui.Test test_local_var::annotated_local_var" />
         <item itemvalue="Sui.Test test_local_var::test_reduce_type (4)" />
         <item itemvalue="Sui.Test test_local_var::test_reduce_type (3)" />
         <item itemvalue="Sui.Test test_local_var::test_reduce_type (1)" />
-        <item itemvalue="Sui.Test test_local_var::test_reduce_type" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +118,7 @@
       <workItem from="1731375728128" duration="1906000" />
       <workItem from="1731377911930" duration="102000" />
       <workItem from="1731378028647" duration="377000" />
+      <workItem from="1731378410960" duration="1920000" />
     </task>
     <servers />
   </component>
