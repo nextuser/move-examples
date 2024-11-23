@@ -83,7 +83,7 @@ module book::ability{
         
     }
     
-    public struct Object1 has key,store{
+    public struct Object1 has key{
         id: UID,
         value : Storeable,
     }
