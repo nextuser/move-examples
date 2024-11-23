@@ -107,8 +107,8 @@ module book::ability{
     #[test]
     fun test_non_copy(){
         let c = NonCopyable{ value:33};
-        let d =c ;
-        std::debug::print(&c); //此时c对象已经被移动给d
+        let d = c ;
+        //std::debug::print(&c); //此时c对象已经被移动给d
         std::debug::print(&d);
 
        // sui::test_utils::destroy(c);
